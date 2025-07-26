@@ -1,2 +1,3 @@
-# navi
-Personalized Modern Navigation Homepage
+# Navi
+
+> Personalized Navigation / Homepage
