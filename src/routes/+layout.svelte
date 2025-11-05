@@ -1,12 +1,11 @@
 <script lang="ts">
-	import '../app.css';
+	import favicon from '$lib/assets/favicon.svg';
 
 	let { children } = $props();
 </script>
 
-<div class="min-h-screen bg-gradient-to-br from-slate-50 to-blue-50">
-	<!-- Main Content -->
-	<main class="flex-1">
-		{@render children()}
-	</main>
-</div>
+<svelte:head>
+	<link rel="icon" href={favicon} />
+</svelte:head>
+
+{@render children()}
